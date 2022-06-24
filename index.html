@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="img/hacker.png" type="image/x-icon" />
+    <title>Decodificador</title>
+</head>
+
+<body>
+
+    <header>
+        <h1 class="titulo_principal">DECODIFICADOR DE TEXTO</h1>
+        <img src="img/logoAlura.png" alt="Logo Alura" class="logo">
+    </header>
+
+    <main class="main">
+        <section>
+            <textarea class="input-texto" cols="40" rows="6" placeholder="   Digite seu texto"></textarea>
+            <div>
+                <h6 class="informacoes"> Apenas letras minúsculas e sem acento.</h6>
+            </div>
+
+            <div class="botoes">
+                <button class="encriptar" onclick="btnEncriptar()">
+                    Criptografar
+                </button>
+                <button class="desencriptar" onclick="btnDesencriptar()">
+                    Descriptografar
+                </button>
+            </div>
+        </section>
+
+
+
+        <section>
+            <textarea class="mensagem" cols="18" rows="8"
+                placeholder="         Nenhuma mensagem encontrada.        Digite um texto que você quer criptografar ou descriptogafar."></textarea>
+            <div class="botoes-copy">
+                <button class="copy" onclick="btnCopiar()">
+                    Copiar
+                </button>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="author">
+        <a href="https://www.linkedin.com/in/maria-karolyne-lopes-pinto-830311145/" target="_blank"><img src="img/linkedin.png" alt="icone do linkedin"></a>
+        <a href="https://github.com/KarolyneDev" target="_blank"><img src="img/github.png" alt="icone do github"></a>
+        <p class="desenvolvido">Desenvolvido por Maria Karolyne</p>
+        <p class="copyright">&copy;copyright</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
